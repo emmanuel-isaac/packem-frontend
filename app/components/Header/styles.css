@@ -1,0 +1,19 @@
+.header { /* stylelint-disable */
+}
+
+.navbar {
+  background-image: none;
+  background-color: #DD4B2D;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.brand, .navitem a {
+  color: #fff !important;
+}
