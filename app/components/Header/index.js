@@ -12,10 +12,10 @@ import styles from './styles.css';
 function Header() {
   return (
     <div className={styles.header}>
-      <Navbar className={`${styles.navbar}`}>
+      <Navbar className={`${styles.navbar}`} fixedTop>
         <Navbar.Header>
           <Navbar.Brand className={styles.brand}>
-            <a href="/">React-Bootstrap</a>
+            <a href="/">Packem</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
