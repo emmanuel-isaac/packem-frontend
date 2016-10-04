@@ -1,19 +1,20 @@
 .intro {
   /* stylelint-disable */
   height: 300px;
-  background: #F06F54;
+  background: #661ACA;
   color: #fff;
   margin-top: 50px;
   padding: 40px 0;
+  font-family: "Lato", sans-serif;
 }
 
 .introMessage {
-  height: 100%;
+  height: 70%;
   text-align: center;
 }
 
 .packemButton {
-  background-color: #B52F13;
+  background-color: #5009AF;
   background-image: none;
   border: none;
   border-radius: 0;
@@ -23,6 +24,11 @@
 }
 
 .packemButton:hover {
-  background-color: #8E1900;
+  background-color: #31046C;
   color: #fff;
+}
+
+.startShoppingBtn {
+  margin-top: 20px;
+  text-align: center;
 }
